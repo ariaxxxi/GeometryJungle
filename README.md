@@ -24,13 +24,10 @@ it says "CANNOT get ..."
 
 
 ## textures resources
-
 https://freepbr.com/c/organic/
 https://3dtextures.me/
 
 
 # useful link
-
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
-# GeometryJungle
-# GeometryJungle
+
