@@ -3,10 +3,16 @@
 
 `npm install --save dat.gui`
 
+# if you want to create a new geometry...
+
+copy the 'sphere_with_waves.ts' file, change a name, and make changes to geometry, 
+
+
 # run
 `npm run start`
 
 Go to index.ts and uncomment the line in the script which you want to run.
+
 
 # A BUG NEED TO FIX !!!
 I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html
