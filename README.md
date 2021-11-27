@@ -20,9 +20,13 @@ it says "CANNOT get ..."
 
 # TO DO LIST
 ✅ add slider
+
 ✅ make shadow color looks better
+
 🤔 upload texture file
+
 🤔 Homepage design (link everything using button maybe?)
+
 🤔 export .obj file
 
 
