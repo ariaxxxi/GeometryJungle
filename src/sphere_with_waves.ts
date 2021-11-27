@@ -180,9 +180,8 @@ gui.add( params, 'bloomRadius', 0.0, 1.0 ).step( 0.01 ).onChange( function ( val
     bloomPass.radius = Number( value );
 } );
 
-
 // ANIMATE
-void function animate() {
+function animate() {
     const now = Date.now() / (400 - morph.speed);
 
     // iterate all vertices
@@ -216,7 +215,7 @@ void function animate() {
     composer.render();
 }
 document.body.appendChild(renderer.domElement);
-// animate();
+animate();
 
 
 // RESIZE HANDLER
