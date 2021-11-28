@@ -32,7 +32,7 @@ it says "CANNOT get ..."
 
 🤔 upload texture file
 
-🤔 Homepage design (link everything using button maybe?) - Kenny
+🤔 Homepage design (link everything using button maybe?) [Kenny]
 
 🤔 export .obj file
 
