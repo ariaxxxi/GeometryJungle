@@ -1,7 +1,10 @@
 # installation setup
-`npm install`
+1. Download node.js at: 
+https://nodejs.org/en/
 
-`npm install --save dat.gui`
+2. `npm install`
+
+3. `npm install --save dat.gui`
 
 # if you want to create a new geometry...
 
