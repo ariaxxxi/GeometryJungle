@@ -30,7 +30,7 @@ it says "CANNOT get ..."
 
 ✅ make shadow color looks better
 
-🤔 upload texture file
+🤔 upload texture file - IN PROGRESS
 
 🤔 homepage design (link everything using button maybe?)
     🤔 index Page with Typed.js or CSS version
