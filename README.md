@@ -32,9 +32,22 @@ it says "CANNOT get ..."
 
 🤔 upload texture file
 
-🤔 Homepage design (link everything using button maybe?) [Kenny]
+🤔 homepage design (link everything using button maybe?)
+    🤔 index Page with Typed.js or CSS version
+    🤔 toggle at top-left to go between sphere Geometry and terrain manipulator
+    🤔 how-to/Info window for instructions
+    🤔 global .css
+
+🤔 features in the slider
+    🤔 add reset button
+    🤔 remove indiceX?
+    🤔 remove indiceY?
+    🤔 remove indiceZ?
 
 🤔 export .obj file
+
+
+
 
 
 ## textures resources
