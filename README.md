@@ -29,9 +29,13 @@ it says "CANNOT get ..."
 
 ✅ make shadow color looks better
 
+<<<<<<< HEAD
 🤔 make html stuff overlay
 
 🤔 upload texture file
+=======
+🤔 upload texture file - IN PROGRESS
+>>>>>>> 775e8ac68e49da70938a2650720259beb62c3590
 
 🤔 homepage design (link everything using button maybe?)
     🤔 index Page with Typed.js or CSS version
