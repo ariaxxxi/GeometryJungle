@@ -32,6 +32,9 @@ it says "CANNOT get ..."
 
 🤔 upload texture file - IN PROGRESS
 
+🤔 a [third] geometry ?
+
+
 🤔 homepage design (link everything using button maybe?)
     🤔 index Page with Typed.js or CSS version
     🤔 toggle at top-left to go between sphere Geometry and terrain manipulator
