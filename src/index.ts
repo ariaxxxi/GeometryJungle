@@ -3,6 +3,6 @@ import { terrain_editor } from "./terrain_editor";
 // import * as dat from 'dat.gui'
 
 
-// sphere_with_waves();
+sphere_with_waves();
 
-terrain_editor();
+// terrain_editor();
