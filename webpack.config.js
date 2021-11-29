@@ -30,56 +30,56 @@ module.exports = {
   },
 }
 
-// // CONVERT sphere_with_waves.ts
-// module.exports = {
-//   mode: 'development',
-//   entry: './src/sphere_with_waves.ts',
-//   devtool: 'inline-source-map',
-//   module: {
-//     rules: [
-//       {
-//         test: /\.tsx?$/,
-//         use: 'ts-loader',
-//         exclude: /node_modules/
-//       }
-//     ]
-//   },
-//   resolve: {
-//     extensions: ['.tsx', '.ts', '.js']
-//   },
-//   output: {
-//     filename: 'sphere_with_waves.js',
-//     path: src
-//   },
-//   devServer: {
-//     contentBase: src,
-//   },
-// }
+// CONVERT sphere_with_waves.ts
+module.exports = {
+  mode: 'development',
+  entry: './src/sphere.ts',
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js']
+  },
+  output: {
+    filename: 'sphere.js',
+    path: src
+  },
+  devServer: {
+    contentBase: src,
+  },
+}
 
 
 
-// // CONVERT terrain_editor.ts
-// module.exports = {
-//   mode: 'development',
-//   entry: './src/terrain_editor.ts',
-//   devtool: 'inline-source-map',
-//   module: {
-//     rules: [
-//       {
-//         test: /\.tsx?$/,
-//         use: 'ts-loader',
-//         exclude: /node_modules/
-//       }
-//     ]
-//   },
-//   resolve: {
-//     extensions: ['.tsx', '.ts', '.js']
-//   },
-//   output: {
-//     filename: 'terrain_editor.js',
-//     path: src
-//   },
-//   devServer: {
-//     contentBase: src,
-//   },
-// }
+// CONVERT terrain_editor.ts
+module.exports = {
+  mode: 'development',
+  entry: './src/terrain.ts',
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js']
+  },
+  output: {
+    filename: 'terrain.js',
+    path: src
+  },
+  devServer: {
+    contentBase: src,
+  },
+}
