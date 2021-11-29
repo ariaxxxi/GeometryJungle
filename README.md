@@ -6,18 +6,17 @@ https://nodejs.org/en/
 
 3. `npm install --save dat.gui`
 
-# if you want to create a new geometry...
 
-copy the 'sphere_with_waves.ts' file, change a name, and make changes to geometry, 
+# update the code
 
+`git pull`
 
 # run
 `npm run start`
 
-Go to index.ts and uncomment the line in the script which you want to run.
 
 
-# A BUG NEED TO FIX !!!
+# A BUG NEED TO FIX !!! ✅
 I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html
 for example, try uncomment the 
 <a href="./src/sphere_with_waves.html" > Sphere </a>
@@ -30,7 +29,13 @@ it says "CANNOT get ..."
 
 ✅ make shadow color looks better
 
+<<<<<<< HEAD
+🤔 make html stuff overlay
+
+🤔 upload texture file
+=======
 🤔 upload texture file - IN PROGRESS
+>>>>>>> 775e8ac68e49da70938a2650720259beb62c3590
 
 🤔 a [third] geometry ?
 
