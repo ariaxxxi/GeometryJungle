@@ -82,7 +82,9 @@
  }
 
  .content_padded {
+  background-color: transparent;
   padding: 1.2rem;
+  position: fixed;
  }
 
  .content_width {
