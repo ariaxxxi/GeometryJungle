@@ -39,10 +39,10 @@
   padding: 0 0 0 1em;
  }
  
- img {
+ /* img {
   border: 0;
   padding: 0;
- }
+ } */
   
  /**
   * Editor styles
@@ -221,5 +221,5 @@ h1::after {
  img {
   padding-top:40px;
   padding-bottom:20px;
-  display: none;
+  /* display: none; */
 }
