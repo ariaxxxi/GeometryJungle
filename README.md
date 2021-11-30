@@ -29,27 +29,31 @@ it says "CANNOT get ..."
 
 ✅ make shadow color looks better
 
-<<<<<<< HEAD
 ✅ make html stuff overlay
 
 🤔 upload texture file
-=======
-🤔 upload texture file - IN PROGRESS
->>>>>>> 775e8ac68e49da70938a2650720259beb62c3590
+    775e8ac68e49da70938a2650720259beb62c3590
 
 🤔 a [third] geometry ?
 
-
 🤔 homepage design (link everything using button maybe?)
+
     🤔 index Page with Typed.js or CSS version
+
     🤔 toggle at top-left to go between sphere Geometry and terrain manipulator
+
     🤔 how-to/Info window for instructions
+
     🤔 global .css
 
 🤔 features in the slider
+
     🤔 add reset button
+
     🤔 remove indiceX?
+
     🤔 remove indiceY?
+    
     🤔 remove indiceZ?
 
 🤔 export .obj file
