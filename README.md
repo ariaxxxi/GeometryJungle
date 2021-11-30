@@ -6,7 +6,6 @@ https://nodejs.org/en/
 
 3. `npm install --save dat.gui`
 
-
 # update the code
 
 `git pull`
@@ -14,15 +13,9 @@ https://nodejs.org/en/
 # run
 `npm run start`
 
+# BUGS TO FIX !!! 
 
-
-# A BUG NEED TO FIX !!! ✅
-I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html
-for example, try uncomment the 
-<a href="./src/sphere_with_waves.html" > Sphere </a>
-in index.html
-it says "CANNOT get ..."
-
+✅ I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html - for example, try uncomment the <a href="./src/sphere_with_waves.html" > Sphere </a> in index.html, it says "CANNOT get ..."
 
 # TO DO LIST
 ✅ add slider
@@ -53,20 +46,15 @@ it says "CANNOT get ..."
     🤔 remove indiceX?
 
     🤔 remove indiceY?
-    
+
     🤔 remove indiceZ?
 
 🤔 export .obj file
 
-
-
-
-
-## textures resources
+# textures resources
 https://freepbr.com/c/organic/
 
 https://3dtextures.me/
-
 
 # useful link
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
