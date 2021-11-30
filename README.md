@@ -1,26 +1,38 @@
-# How to setup / install
+# Geometric Jungle
+
+Geometric Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.
+
+
+## Installation
 
 1. Download node.js at: 
 https://nodejs.org/en/
 
-2. `npm install`
+2. Run the following commands:
+'''hash
+npm install
+npm install --save dat.gui
+'''
 
-3. `npm install --save dat.gui`
+## Usage
 
-# How to run
+Run the following command to run the website:
+'''hash
+npm run start
+'''
 
-`npm run start`
+To update the code, type:
 
-# How to update the code
+'''hash
+git pull
+'''
 
-`git pull`
 
-
-# BUGS TO FIX !!! 
+## Bugs to fix!!! 
 
 ✅ I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html - for example, try uncomment the <a href="./src/sphere_with_waves.html" > Sphere </a> in index.html, it says "CANNOT get ..."
 
-# To-Do List
+## To-Do List
 
 ✅ add slider
 
@@ -55,11 +67,11 @@ https://nodejs.org/en/
 
 🤔 export .obj file
 
-# Textures resources
+## Textures resources
 https://freepbr.com/c/organic/
 
 https://3dtextures.me/
 
-# Useful links
+## Useful links
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
 
