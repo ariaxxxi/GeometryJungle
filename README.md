@@ -31,7 +31,7 @@ git pull
 ```
 
 
-<details><summary>## Bugs to fix!!!</summary>
+## <details><summary>Bugs to fix!!!</summary>
 
 ✅ I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html - for example, try uncomment the <a href="./src/sphere_with_waves.html" > Sphere </a> in index.html, it says "CANNOT get ..."
 
