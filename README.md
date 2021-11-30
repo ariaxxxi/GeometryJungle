@@ -9,7 +9,7 @@ Geometric Jungle is an inspirational website playground that lets users create 2
 https://nodejs.org/en/
 
 2. Run the following commands:
-'''python
+'''
 npm install
 npm install --save dat.gui
 '''
@@ -17,13 +17,13 @@ npm install --save dat.gui
 ## Usage
 
 Run the following command to run the website:
-'''python
+'''
 npm run start
 '''
 
 To update the code, type:
 
-'''hash
+'''
 git pull
 '''
 
