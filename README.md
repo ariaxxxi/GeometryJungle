@@ -1,4 +1,5 @@
-# installation setup
+# How to setup / install
+
 1. Download node.js at: 
 https://nodejs.org/en/
 
@@ -6,18 +7,21 @@ https://nodejs.org/en/
 
 3. `npm install --save dat.gui`
 
-# update the code
+# How to run
+
+`npm run start`
+
+# How to update the code
 
 `git pull`
 
-# run
-`npm run start`
 
 # BUGS TO FIX !!! 
 
 ✅ I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html - for example, try uncomment the <a href="./src/sphere_with_waves.html" > Sphere </a> in index.html, it says "CANNOT get ..."
 
-# TO DO LIST
+# TO DO List
+
 ✅ add slider
 
 ✅ make shadow color looks better
@@ -51,11 +55,11 @@ https://nodejs.org/en/
 
 🤔 export .obj file
 
-# textures resources
+# Textures resources
 https://freepbr.com/c/organic/
 
 https://3dtextures.me/
 
-# useful link
+# Useful links
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
 
