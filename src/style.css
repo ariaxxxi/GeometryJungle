@@ -171,3 +171,9 @@
   background-color: yellow;
   color: black;  
  }
+
+ img {
+  padding-top:40px;
+  padding-bottom:20px;
+  display: none;
+}

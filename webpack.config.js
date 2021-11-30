@@ -4,10 +4,36 @@
 const path = require('path');
 const src = path.resolve(__dirname, 'src');
 
-// CONVERT index.ts
+// // CONVERT index.ts
+// module.exports = {
+//   mode: 'development',
+//   entry: './src/index.ts',
+//   devtool: 'inline-source-map',
+//   module: {
+//     rules: [
+//       {
+//         test: /\.tsx?$/,
+//         use: 'ts-loader',
+//         exclude: /node_modules/
+//       }
+//     ]
+//   },
+//   resolve: {
+//     extensions: ['.tsx', '.ts', '.js']
+//   },
+//   output: {
+//     filename: 'index.js',
+//     path: src
+//   },
+//   devServer: {
+//     contentBase: src,
+//   },
+// }
+
+// CONVERT wave.ts
 module.exports = {
   mode: 'development',
-  entry: './src/index.ts',
+  entry: './src/wave.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
@@ -22,14 +48,13 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js']
   },
   output: {
-    filename: 'index.js',
+    filename: 'wave.js',
     path: src
   },
   devServer: {
     contentBase: src,
   },
 }
-
 
 
 // CONVERT terrain_editor.ts
