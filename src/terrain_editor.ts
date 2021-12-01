@@ -18,7 +18,7 @@ scene.background = new THREE.Color(0x00000);
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.y = 80;
 camera.position.z = 80;
-camera.position.x = -50;
+camera.position.x = 0;
 
 // RENDERER
 const renderer = new THREE.WebGLRenderer({ antialias: true });
