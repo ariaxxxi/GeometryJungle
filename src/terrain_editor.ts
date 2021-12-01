@@ -17,7 +17,7 @@ scene.background = new THREE.Color(0x00000);
 // CAMERA
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.y = 80;
-camera.position.z = 110;
+camera.position.z = 80;
 camera.position.x = -50;
 
 // RENDERER
@@ -40,7 +40,7 @@ const amlightColor = {
 scene.add(ambientLight);
 
 // AMBIENT LIGHT 2
-scene.add(new THREE.AmbientLight(0xffffff, 2.4));
+scene.add(new THREE.AmbientLight(0xffffff, 3.8));
 
 // DIRECTIONAL LIGHT
 const lightFolder = gui.addFolder('Light Position') // SLIDER FOLDER

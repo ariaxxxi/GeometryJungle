@@ -195,6 +195,7 @@ h1::after {
  h2 a {
   color: #000;
   background-color: rgb(255, 0, 255);
+  cursor: pointer;
  }
 
  h3 {
@@ -218,8 +219,12 @@ h1::after {
   color: black;  
  }
 
- img {
-  padding-top:40px;
-  padding-bottom:20px;
-  /* display: none; */
-}
+ 
+ 
+img {
+   position: absolute;
+   transform: translate(+30%, +70%);
+   display: none;
+   pointer-events: none;
+   z-index: -1;
+ }
