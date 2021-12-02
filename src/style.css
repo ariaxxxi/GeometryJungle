@@ -69,6 +69,12 @@
   font-weight: bold;
  }
 
+ .index_padded {
+  background-color: transparent;
+  padding: 1.2rem;
+  position: fixed;
+ }
+
  .index_width {
   text-align: center;
   -webkit-align-items: center;
@@ -125,7 +131,7 @@
  }
 
  h1 {
-  font-size: clamp(7rem, 4vw, 8rem);
+  font-size: clamp(6rem, 4vw, 8rem);
   position: relative;
   width: max-content;
 
