@@ -4,31 +4,6 @@
 const path = require('path');
 const src = path.resolve(__dirname, 'src');
 
-// // CONVERT index.ts
-// module.exports = {
-//   mode: 'development',
-//   entry: './src/index.ts',
-//   devtool: 'inline-source-map',
-//   module: {
-//     rules: [
-//       {
-//         test: /\.tsx?$/,
-//         use: 'ts-loader',
-//         exclude: /node_modules/
-//       }
-//     ]
-//   },
-//   resolve: {
-//     extensions: ['.tsx', '.ts', '.js']
-//   },
-//   output: {
-//     filename: 'index.js',
-//     path: src
-//   },
-//   devServer: {
-//     contentBase: src,
-//   },
-// }
 
 // CONVERT wave.ts
 module.exports = {
@@ -57,7 +32,7 @@ module.exports = {
 }
 
 
-// CONVERT terrain_editor.ts
+// CONVERT terrain.ts
 module.exports = {
   mode: 'development',
   entry: './src/terrain.ts',
@@ -84,7 +59,7 @@ module.exports = {
 }
 
 
-// CONVERT terrain_editor.ts
+// CONVERT origami.ts
 module.exports = {
   mode: 'development',
   entry: './src/origami.ts',
