@@ -82,3 +82,30 @@ module.exports = {
     contentBase: src,
   },
 }
+
+
+// CONVERT terrain_editor.ts
+module.exports = {
+  mode: 'development',
+  entry: './src/origami.ts',
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }
+    ]
+  },
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js']
+  },
+  output: {
+    filename: 'origami.js',
+    path: src
+  },
+  devServer: {
+    contentBase: src,
+  },
+}
