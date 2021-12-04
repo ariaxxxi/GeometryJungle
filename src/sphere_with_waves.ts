@@ -140,9 +140,9 @@ var morph = {
 const morphFolder = gui.addFolder('Morph') // SLIDER FOLDER
 gui.add(morph, "waveX").min(0).max(40).step(0.01)
 gui.add(morph, "waveY").min(0).max(40).step(0.01)
-gui.add(morph, "indiceX").min(0).max(6).step(1)
-gui.add(morph, "indiceY").min(0).max(6).step(1)
-gui.add(morph, "indiceZ").min(0).max(6).step(1)
+// gui.add(morph, "indiceX").min(0).max(6).step(1)
+// gui.add(morph, "indiceY").min(0).max(6).step(1)
+// gui.add(morph, "indiceZ").min(0).max(6).step(1)
 gui.add(morph, "Height").min(0).max(3).step(0.01)
 gui.add(morph, "speed").min(0).max(400).step(1)
 

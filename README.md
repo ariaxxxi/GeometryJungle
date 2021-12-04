@@ -1,6 +1,6 @@
-# Geometric Jungle
+# Geometry Jungle
 
-Geometric Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
+Geometry Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
 
 
 ## Installation
@@ -72,19 +72,17 @@ git pull
 
     ✅ toggle at top-left to go between sphere Geometry and terrain manipulator
 
-    🤔 how-to/Info window for instructions
-
     ✅ global .css
 
-🤔 features in the slider
+✅ features in the slider
 
-    🤔 add reset button
+    ✅ add reset button
 
-    🤔 remove indiceX?
+    ✅ remove indiceX?
 
-    🤔 remove indiceY?
+    ✅ remove indiceY?
 
-    🤔 remove indiceZ?
+    ✅ remove indiceZ?
 
 🤔 export .obj file
 
