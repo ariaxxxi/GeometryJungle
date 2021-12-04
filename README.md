@@ -86,11 +86,12 @@ git pull
 
 🤔 export .obj file
 
+
 ## Textures resources
 https://freepbr.com/c/organic/
 
 https://3dtextures.me/
 
+
 ## Useful links
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
-

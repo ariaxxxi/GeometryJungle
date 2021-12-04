@@ -12,8 +12,8 @@ sphere.addEventListener("mouseover", () => {
       window.addEventListener("mousemove", (e) => {
         let x = e.offsetX,
           y = e.offsetY;
-          sphereGIF.style.left = `${x-200}px`;
-          sphereGIF.style.top = `${y-450}px`;
+          sphereGIF.style.left = `${x-260}px`;
+          sphereGIF.style.top = `${y-460}px`;
       })
 });
 
@@ -28,7 +28,7 @@ terrain.addEventListener("mouseover", () => {
       window.addEventListener("mousemove", (e) => {
         let x = e.offsetX,
           y = e.offsetY;
-          terrainGIF.style.left = `${x-400}px`;
+          terrainGIF.style.left = `${x-460}px`;
           terrainGIF.style.top = `${y-550}px`;
       })
 });
@@ -44,8 +44,8 @@ origami.addEventListener("mouseover", () => {
       window.addEventListener("mousemove", (e) => {
         let x = e.offsetX,
           y = e.offsetY;
-          origamiGIF.style.left = `${x-450}px`;
-          origamiGIF.style.top = `${y-375}px`;
+          origamiGIF.style.left = `${x-390}px`;
+          origamiGIF.style.top = `${y-310}px`;
       })
 });
 
