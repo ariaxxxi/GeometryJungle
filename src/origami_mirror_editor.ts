@@ -7,7 +7,7 @@ import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 // import Stats from 'three/examples/jsm/libs/stats.module.js'
-import 'stats-js';
+// import 'stats-js';
 import { convertCompilerOptionsFromJson } from 'typescript';
 
 export function mirror_origami() {
