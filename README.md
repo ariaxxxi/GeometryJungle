@@ -15,14 +15,14 @@ npm install
 
 npm install --save dat.gui
 
-
+```
 3. Check if node and npm are installed
 ```
 node -v
 
 npm -v
 
-
+```
 
 4. Occasionally run the below commands if required
 ```
@@ -30,6 +30,7 @@ npm install --save-dev webpack-dev-server
 
 npm install --save-dev webpack-dev-middleware webpack-hot-middleware
 
+```
 
 
 ## Usage
