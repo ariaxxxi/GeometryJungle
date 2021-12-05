@@ -65,7 +65,7 @@ const guiOptions = {
     transmission: 1,
     ior: 1,
     reflectivity: 0.15,
-    thickness: 0.15,
+    thickness: 1,
     normalScale: 0.3,
 
     bloomThreshold: 0.85,
