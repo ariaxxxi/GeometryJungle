@@ -1,6 +1,6 @@
-# Geometric Jungle
+# Geometry Jungle
 
-Geometric Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.
+Geometry Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
 
 
 ## Installation
@@ -14,7 +14,24 @@ https://nodejs.org/en/
 npm install
 
 npm install --save dat.gui
+
 ```
+3. Check if node and npm are installed
+```
+node -v
+
+npm -v
+
+```
+
+4. Occasionally run the below commands if required
+```
+npm install --save-dev webpack-dev-server 
+
+npm install --save-dev webpack-dev-middleware webpack-hot-middleware
+
+```
+
 
 ## Usage
 
@@ -47,35 +64,34 @@ git pull
 🤔 upload texture file
     775e8ac68e49da70938a2650720259beb62c3590
 
-🤔 a [third] geometry ?
+✅ a [third] geometry ?
 
-🤔 homepage design (link everything using button maybe?)
+✅ homepage design (link everything using button maybe?)
 
-    🤔 index Page with Typed.js or CSS version
+    ✅ index Page with Typed.js or CSS version
 
-    🤔 toggle at top-left to go between sphere Geometry and terrain manipulator
+    ✅ toggle at top-left to go between sphere Geometry and terrain manipulator
 
-    🤔 how-to/Info window for instructions
+    ✅ global .css
 
-    🤔 global .css
+✅ features in the slider
 
-🤔 features in the slider
+    ✅ add reset button
 
-    🤔 add reset button
+    ✅ remove indiceX?
 
-    🤔 remove indiceX?
+    ✅ remove indiceY?
 
-    🤔 remove indiceY?
-
-    🤔 remove indiceZ?
+    ✅ remove indiceZ?
 
 🤔 export .obj file
+
 
 ## Textures resources
 https://freepbr.com/c/organic/
 
 https://3dtextures.me/
 
+
 ## Useful links
 https://cpetry.github.io/NormalMap-Online/# GeometryJungle
-
