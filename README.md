@@ -2,6 +2,10 @@
 
 Geometry Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
 
+The website will enable users to select amongst three geometries: waving sphere, playful terrain, and origami mirrors.  In each selection, the website GUI allows for adjusting its lighting, materiality, shape, and transformative effects to allow for easy and personal manipulations.  We aim to inspire designers and non-designers alike to give access to 3D modeling creation without a precise understanding of 3D or NURBS modeling software.
+
+We built our website on Javascript, HTML, and CSS.  Then, using the Node.js engine, we implemented our website using Three.js, dat.GUI, orbit control, and GLTF loader to build the website's foundation.
+
 
 ## Installation
 
@@ -47,51 +51,3 @@ To update the code, type:
 git pull
 ```
 
-
-## Bugs to fix!!!
-
-✅ I tried to seperate these scripts into differnt html, but seems that i can't open any .html files other then index.html - for example, try uncomment the <a href="./src/sphere_with_waves.html" > Sphere </a> in index.html, it says "CANNOT get ..."
-
-
-## To-Do List
-
-✅ add slider
-
-✅ make shadow color looks better
-
-✅ make html stuff overlay
-
-🤔 upload texture file
-    775e8ac68e49da70938a2650720259beb62c3590
-
-✅ a [third] geometry ?
-
-✅ homepage design (link everything using button maybe?)
-
-    ✅ index Page with Typed.js or CSS version
-
-    ✅ toggle at top-left to go between sphere Geometry and terrain manipulator
-
-    ✅ global .css
-
-✅ features in the slider
-
-    ✅ add reset button
-
-    ✅ remove indiceX?
-
-    ✅ remove indiceY?
-
-    ✅ remove indiceZ?
-
-🤔 export .obj file
-
-
-## Textures resources
-https://freepbr.com/c/organic/
-
-https://3dtextures.me/
-
-
-## Useful links
-https://cpetry.github.io/NormalMap-Online/# GeometryJungle
