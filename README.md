@@ -51,3 +51,6 @@ To update the code, type:
 git pull
 ```
 
+## Creation process
+
+We mainly write the codes in typescript files to achieve all the geomtry creation, see "sphere_with_waves.ts", "terrain_editor.ts" and ""origami_mirror_editor.ts". We then use "wave.ts", "terrain.ts" and "origami.ts" to import the functions and convert into javascript file for html file to display. The reason why we have to use typescript is that typescript allow us to import types that we need to create the geometry. We also found that typescript is a really good language for debugging compared to javascript, as it showed the bug immediately when we were coding.
