@@ -1,5 +1,8 @@
 # Geometry Jungle
 
+![Alt Text](./img/sphere.gif)
+
+
 Geometry Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
 
 The website will enable users to select amongst three geometries: waving sphere, playful terrain, and origami mirrors.  In each selection, the website GUI allows for adjusting its lighting, materiality, shape, and transformative effects to allow for easy and personal manipulations.  We aim to inspire designers and non-designers alike to give access to 3D modeling creation without a precise understanding of 3D or NURBS modeling software.
