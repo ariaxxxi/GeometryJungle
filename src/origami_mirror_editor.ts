@@ -30,6 +30,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setClearColor(0x1f1e1c, 1);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
+// ENABLE SHADOW
 renderer.shadowMap.enabled = true
 
 // DIRECTIONAL LIGHT
@@ -56,7 +57,9 @@ gui.add(dirLight,'intensity').min(0).max(7000).step(0.01)
 scene.add(dirLight);
 // scene.add(new THREE.CameraHelper(dirLight.shadow.camera));  //Light indication
 
+// GUI VARIABLE WITH INITIAL VALUES
 const guiOptions = {
+    // MATERIAL PROPERTIES
     enableSwoopingCamera: false,
     enableRotation: false,
     color: 0xffffff,
@@ -68,6 +71,7 @@ const guiOptions = {
     thickness: 1,
     normalScale: 0.3,
 
+    // SCENE PROPERTIES
     bloomThreshold: 0.85,
     bloomStrength: 0.35,
     bloomRadius: 0.33,
@@ -76,13 +80,13 @@ const guiOptions = {
 
 
 
-// TEXTURES
-const textureLoader = new THREE.TextureLoader();
-const waterBaseColor = textureLoader.load("./textures/liquid/14.png");
-const waterNormalMap = textureLoader.load("./textures/water/Water_002_NORM.jpg");
-const waterHeightMap = textureLoader.load("./textures/water/Water_002_DISP.png");
-const waterRoughness = textureLoader.load("./textures/water/Water_002_ROUGH.jpg");
-const waterAmbientOcclusion = textureLoader.load("./textures/water/Water_002_OCC.jpg");
+// // TEXTURES
+// const textureLoader = new THREE.TextureLoader();
+// const waterBaseColor = textureLoader.load("./textures/liquid/14.png");
+// const waterNormalMap = textureLoader.load("./textures/water/Water_002_NORM.jpg");
+// const waterHeightMap = textureLoader.load("./textures/water/Water_002_DISP.png");
+// const waterRoughness = textureLoader.load("./textures/water/Water_002_ROUGH.jpg");
+// const waterAmbientOcclusion = textureLoader.load("./textures/water/Water_002_OCC.jpg");
 
 // WIREFRAME MATERIAL
 var wireMaterial = new THREE.MeshNormalMaterial({wireframe: true})
@@ -103,8 +107,11 @@ gui.add(guiOptions, "enableSwoopingCamera").onChange((val) => {
     controls.enabled = !val;
     controls.reset();});
 
+// GUI MATERIAL SECTION
 gui.addFolder('Origami Material')
+// CHOOSE WHETHER TO DISPLACE WIREFRAME
 gui.add(mirrorMaterial,"wireframe").listen();
+
 gui.addColor(guiOptions, "color").onChange((val) => {
     mirrorMaterial.color.set(val);
   });
@@ -139,6 +146,7 @@ const startingMapping = [
     { childID: "origami", mtl: mirrorMaterial}];
    
 // PLANE GEOMETRY
+// LOAD JPG TEXTURE
 const bgTexture = new THREE.TextureLoader().load("./textures/liquid/3.jpeg");
 const bgGeometry = new THREE.PlaneGeometry(2, 2);
 const bgMaterial = new THREE.MeshBasicMaterial({ map: bgTexture });
@@ -210,14 +218,16 @@ composer.addPass( bloomPass );
 
 const bloomFolder = gui.addFolder('Bloom') // SLIDER FOLDER
 
+// BLOOMTHRESHOLD SCENE EFFECT
 gui.add( params, 'bloomThreshold', 0.0, 1.0 ).onChange( function ( value ) {
     bloomPass.threshold = Number( value );
 } );
 
+// BLOOMSTRENGTH SCENE EFFECT
 gui.add( params, 'bloomStrength', 0.0, 3.0 ).onChange( function ( value ) {
     bloomPass.strength = Number( value );
 } );
-
+// BLOOMRADIUS SCENE EFFECT
 gui.add( params, 'bloomRadius', 0.0, 1.0 ).step( 0.01 ).onChange( function ( value ) {
     bloomPass.radius = Number( value );
 } );
