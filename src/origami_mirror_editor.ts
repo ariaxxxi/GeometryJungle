@@ -1,4 +1,3 @@
-
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import * as dat from 'dat.gui'
@@ -6,42 +5,41 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-// import Stats from 'three/examples/jsm/libs/stats.module.js'
-// import 'stats-js';
-import { convertCompilerOptionsFromJson } from 'typescript';
+
+
 
 export function mirror_origami() {
-// SCENE
-const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x00000);
+    // SCENE
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x00000);
 
 
-//SLIDER
-const gui = new dat.GUI();
+    //SLIDER
+    const gui = new dat.GUI();
 
-// CAMERA
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.x = 0
-camera.position.y = 0
-camera.position.z = 2
+    // CAMERA
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.x = 0
+    camera.position.y = 0
+    camera.position.z = 2
 
-// RENDERER
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setClearColor(0x1f1e1c, 1);
-renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setPixelRatio(window.devicePixelRatio);
-// ENABLE SHADOW
-renderer.shadowMap.enabled = true
+    // RENDERER
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setClearColor(0x1f1e1c, 1);
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(window.devicePixelRatio);
+    // ENABLE SHADOW
+    renderer.shadowMap.enabled = true
 
-// DIRECTIONAL LIGHT
-const lightFolder = gui.addFolder('Light Position') // SLIDER FOLDER
-const dirLight = new THREE.DirectionalLight(0xd46270, 0.2)
-dirLight.position.x = -10
-dirLight.position.y = -5
-dirLight.position.z = -20
-dirLight.intensity = 7000
-const lightColor = {
-DirectionalLightColor : 0xd46270
+    // DIRECTIONAL LIGHT
+    const lightFolder = gui.addFolder('Light Position') // SLIDER FOLDER
+    const dirLight = new THREE.DirectionalLight(0xd46270, 0.2)
+    dirLight.position.x = -10
+    dirLight.position.y = -5
+    dirLight.position.z = -20
+    dirLight.intensity = 7000
+    const lightColor = {
+    DirectionalLightColor : 0xd46270
 }
 
 // LIGHT SLIDER
