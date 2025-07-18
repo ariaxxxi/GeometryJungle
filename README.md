@@ -16,44 +16,27 @@ We built our website on Javascript, HTML, and CSS.  Then, using the Node.js engi
 
 ## Installation
 
-1. Download node.js at: 
-https://nodejs.org/en/
+1. Download node.js
 
-2. Run the following commands:
+2. Install & update dependencies:
 
 ```
 npm install
 
 npm install --save dat.gui
-```
-3. Check if node and npm are installed
-```
-node -v
 
-npm -v
+npm update webpack webpack-cli webpack-dev-server
+
 ```
 
-4. Occasionally run the below commands if required
-```
-npm install --save-dev webpack-dev-server 
-
-npm install --save-dev webpack-dev-middleware webpack-hot-middleware
-```
-
-
-## Usage
-
-Run the following command to run the website:
+3. Run:
 
 ```
 npm run start
-```
-
-To update the code, type:
 
 ```
-git pull
-```
+
+
 
 ## Creation process
 
