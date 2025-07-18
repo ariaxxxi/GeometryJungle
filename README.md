@@ -1,10 +1,10 @@
 # Geometry Jungle
 
-
-https://youtu.be/-kh2HfO1HCc
-
+https://ariaxxxi.github.io/GeometryJungle/
 
 ![](home.gif)
+
+https://youtu.be/-kh2HfO1HCc
 
 
 Geometry Jungle is an inspirational website playground that lets users create 2D/3D geometries with stunning visual effects, materials, noise NURBS, etc.  Created by Xiying Bao, Ibrahim Ibrahim, and Kenny Kim.
