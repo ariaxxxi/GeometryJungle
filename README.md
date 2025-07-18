@@ -1,6 +1,8 @@
 # Geometry Jungle
 
-https://www.geometryjungle.com/
+
+https://youtu.be/-kh2HfO1HCc
+
 
 ![](home.gif)
 
@@ -11,7 +13,6 @@ The website will enable users to select amongst three geometries: waving sphere,
 
 We built our website on Javascript, HTML, and CSS.  Then, using the Node.js engine, we implemented our website using Three.js, dat.GUI, orbit control, and GLTFLoader to build the website's foundation.
 
-https://youtu.be/-kh2HfO1HCc
 
 ## Installation
 
